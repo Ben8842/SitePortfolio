@@ -10,14 +10,17 @@ function App() {
       <div>
         <div id="about">
           <p>Name: Benjamin Perkins</p>
-          <p>GitHub: https://github.com/Ben8842</p>
+          <p>
+            GitHub:{" "}
+            <a href="https://github.com/Ben8842">https://github.com/Ben8842</a>
+          </p>
           <p>Contact: perkinsben@yahoo.com</p>
-          <p>Status: currently searching for employment</p>
+          <p>Status: currently open and searching for employment</p>
           <p> Skills: </p>
           <p>• React, Redux, JavaScript, Python, Java, HTML, CSS, XML</p>
           <p>
-            • MongoDB, SQL, Mongoose, Express, • GitHub, Heroku, Netlify, Visual
-            Studio{" "}
+            • MongoDB, SQL, Mongoose, Express,
+            <p>• GitHub, Heroku, Netlify, Visual Studio </p>
           </p>
           <p>• FIX Protocol, PowerShell, FTP, TFS, JIRA</p>
 

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 var firstimg = require("./imgfolder/pattern.jpg").default;
@@ -24,18 +23,15 @@ function App() {
                 Click here to find my GitHub profile
               </a>
             </button>
+            <p>
+              <button id="topinfo">
+                <a href="https://www.linkedin.com/in/ben-perkins-91262b16">
+                  Click here to Connect on Linkedin.com
+                </a>
+              </button>
+            </p>
           </p>
 
-          <p>
-            <button id="topinfo">
-              <a
-                href="www.linkedin.com/in/ben-perkins-91262b16
-"
-              >
-                Click here to Connect on Linkedin.com
-              </a>
-            </button>
-          </p>
           <p>Name: Benjamin Perkins</p>
           <p>Contact: perkinsben@yahoo.com </p>
 

@@ -1,3 +1,57 @@
+#topinfo {
+  background-color: rgba(128, 128, 128, 0.13);
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50px;
+  text-align: center;
+}
+#topinfoS {
+  background-color: rgba(128, 128, 128, 0.13);
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+.fancy {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.37);
+  height: 200px;
+  width: 250px;
+  font-size: 20px;
+  border-width: 10px;
+  margin: 30px;
+  padding: 5px;
+  z-index: 2;
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+a:visited {
+  color: white;
+  font-size: 25px;
+}
+
+a:active {
+  color: white;
+  font-size: 25px;
+}
+
 #patternBack {
   position: absolute;
   width: 100%;
@@ -41,18 +95,6 @@ a:visited {
 a:active {
   color: white;
   font-size: 25px;
-}
-
-.fancy {
-  color: white;
-  background-color: grey;
-  height: 200px;
-  width: 250px;
-  font-size: 20px;
-  border-width: 10px;
-  margin: 30px;
-  padding: 5px;
-  z-index: 2;
 }
 
 @media only screen and (max-width: 700px) {

@@ -21,7 +21,7 @@ function App() {
             {" "}
             <button id="topinfo">
               <a href="https://github.com/Ben8842">
-                Explore my GitHub @ https://github.com/Ben8842
+                Click here to find my GitHub profile
               </a>
             </button>
           </p>
@@ -32,7 +32,7 @@ function App() {
                 href="www.linkedin.com/in/ben-perkins-91262b16
 "
               >
-                Connect on Linkedin.com
+                Click here to Connect on Linkedin.com
               </a>
             </button>
           </p>

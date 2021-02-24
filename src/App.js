@@ -5,17 +5,41 @@ var firstimg = require("./imgfolder/pattern.jpg").default;
 
 function App() {
   return (
-    <div className="App">
+    <div className="patternBack">
       <img id="patternBack" src={firstimg} alt="mystery"></img>
       <div>
         <div id="about">
-          <p>Name: Benjamin Perkins</p>
-          <p>
-            GitHub:{" "}
-            <a href="https://github.com/Ben8842">https://github.com/Ben8842</a>
+          <p id="topinfoS">
+            <button id="topinfoS">
+              <a href="https://calendly.com/perkinsben">
+                Click here to schedule a meeting with me
+              </a>
+            </button>
           </p>
-          <p>Contact: perkinsben@yahoo.com</p>
-          <p>Status: currently open and searching for employment</p>
+
+          <p>
+            {" "}
+            <button id="topinfo">
+              <a href="https://github.com/Ben8842">
+                Explore my GitHub @ https://github.com/Ben8842
+              </a>
+            </button>
+          </p>
+
+          <p>
+            <button id="topinfo">
+              <a
+                href="www.linkedin.com/in/ben-perkins-91262b16
+"
+              >
+                Connect on Linkedin.com
+              </a>
+            </button>
+          </p>
+          <p>Name: Benjamin Perkins</p>
+          <p>Contact: perkinsben@yahoo.com </p>
+
+          <p>Status: Open for employment.</p>
           <p> Skills: </p>
           <p>• React, Redux, JavaScript, Python, Java, HTML, CSS, XML</p>
           <p>
@@ -26,27 +50,23 @@ function App() {
 
           <div id="fixy">
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://tender-benz-d42ce4.netlify.app/">
-                Eight Queens Puzzle
-              </a>
+              <a href="https://tender-benz-d42ce4.netlify.app/">Queen Puzzle</a>
             </button>
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://jolly-meninsky-2047bc.netlify.app/">
-                Pascal's Triangle and the Sierpinsky Triangle
-              </a>
+              <a href="https://jolly-meninsky-2047bc.netlify.app/">Triangle</a>
             </button>
             <button class="fancy" variant="secondary" size="lg" block>
               <a href="https://optimistic-babbage-2ed085.netlify.app/">
                 Maze Algorithm
               </a>
             </button>
-            <button class="fancy" variant="primary" size="lg" block>
+            <button class="fancy" variant="secondary" size="lg" block>
               <a href="https://trivia-redux.herokuapp.com/">Trivia</a>
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
               <a href="https://vibrant-spence-207a4e.netlify.app/">
-                Emojii Matching Game
+                Emojii Game
               </a>
             </button>
 
@@ -61,7 +81,7 @@ function App() {
                 Trivia Application Tutorial
               </a>
             </button>
-            <button class="fancy" variant="primary" size="lg" block>
+            <button class="fancy" variant="secondary" size="lg" block>
               <a href="https://wordsearch-generator.herokuapp.com/">
                 Word Search Generator
               </a>

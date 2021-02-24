@@ -46,13 +46,23 @@ function App() {
 
           <div id="fixy">
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://tender-benz-d42ce4.netlify.app/">Queen Puzzle</a>
+              <a id="bproject" href="https://tender-benz-d42ce4.netlify.app/">
+                Queen Puzzle
+              </a>
             </button>
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://jolly-meninsky-2047bc.netlify.app/">Triangle</a>
+              <a
+                id="bproject"
+                href="https://jolly-meninsky-2047bc.netlify.app/"
+              >
+                Triangle
+              </a>
             </button>
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://optimistic-babbage-2ed085.netlify.app/">
+              <a
+                id="bproject"
+                href="https://optimistic-babbage-2ed085.netlify.app/"
+              >
                 Maze Algorithm
               </a>
             </button>
@@ -61,13 +71,16 @@ function App() {
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://vibrant-spence-207a4e.netlify.app/">
+              <a
+                id="bproject"
+                href="https://vibrant-spence-207a4e.netlify.app/"
+              >
                 Emojii Game
               </a>
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://benwperkins.github.io/BitProject/">
+              <a href="https://ben8842.github.io/BitProject/">
                 Cryptocurrency Project
               </a>
             </button>

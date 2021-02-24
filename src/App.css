@@ -16,6 +16,16 @@
   position: sticky;
   top: 0;
   text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+#topinfo:focus {
+  outline: none;
+}
+
+#topinfoS:focus {
+  outline: none;
 }
 
 .fancy {
@@ -34,22 +44,22 @@
 a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 a:hover {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 a:visited {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 a:active {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #patternBack {
@@ -190,5 +200,13 @@ a:active {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+  }
+
+  #topinfo:focus {
+    outline: none;
+  }
+
+  #topinfoS:focus {
+    outline: none;
   }
 }

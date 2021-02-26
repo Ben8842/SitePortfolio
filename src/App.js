@@ -46,19 +46,6 @@ function App() {
 
           <div id="fixy">
             <button class="fancy" variant="secondary" size="lg" block>
-              <a id="bproject" href="https://tender-benz-d42ce4.netlify.app/">
-                Queen Puzzle
-              </a>
-            </button>
-            <button class="fancy" variant="secondary" size="lg" block>
-              <a
-                id="bproject"
-                href="https://jolly-meninsky-2047bc.netlify.app/"
-              >
-                Triangle
-              </a>
-            </button>
-            <button class="fancy" variant="secondary" size="lg" block>
               <a
                 id="bproject"
                 href="https://optimistic-babbage-2ed085.netlify.app/"
@@ -67,7 +54,7 @@ function App() {
               </a>
             </button>
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://trivia-redux.herokuapp.com/">Trivia</a>
+              <a href="https://trivia-redux.herokuapp.com/">Trivia App</a>
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
@@ -75,7 +62,7 @@ function App() {
                 id="bproject"
                 href="https://vibrant-spence-207a4e.netlify.app/"
               >
-                Emojii Game
+                Emoji Game
               </a>
             </button>
 
@@ -86,8 +73,17 @@ function App() {
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://wonderful-mahavira-3cec2e.netlify.app/">
-                Trivia Application Tutorial
+              <a
+                id="bproject"
+                href="https://jolly-meninsky-2047bc.netlify.app/"
+              >
+                Triangle
+              </a>
+            </button>
+
+            <button class="fancy" variant="secondary" size="lg" block>
+              <a id="bproject" href="https://tender-benz-d42ce4.netlify.app/">
+                Queen Puzzle
               </a>
             </button>
             <button class="fancy" variant="secondary" size="lg" block>
@@ -103,3 +99,8 @@ function App() {
 }
 
 export default App;
+/*<button class="fancy" variant="secondary" size="lg" block>
+              <a href="https://wonderful-mahavira-3cec2e.netlify.app/">
+                Trivia Application Tutorial
+              </a>
+            </button>*/

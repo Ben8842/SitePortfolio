@@ -73,6 +73,12 @@ function App() {
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
+              <a href="https://confident-varahamihira-ee1a90.netlify.app/">
+                Movie Game
+              </a>
+            </button>
+
+            <button class="fancy" variant="secondary" size="lg" block>
               <a
                 id="bproject"
                 href="https://jolly-meninsky-2047bc.netlify.app/"

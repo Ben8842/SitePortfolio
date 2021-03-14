@@ -15,7 +15,6 @@ function App() {
               </a>
             </button>
           </p>
-
           <p>
             {" "}
             <button id="topinfo">
@@ -31,11 +30,15 @@ function App() {
               </button>
             </p>
           </p>
-
           <p>Name: Benjamin Perkins</p>
           <p>Contact: perkinsben@yahoo.com </p>
-
           <p>Status: Open for employment.</p>
+          <p>
+            Education:{" "}
+            <a href="https://deepdiveeducation.com/">
+              Deep Dive Learning Academy
+            </a>
+          </p>
           <p> Skills: </p>
           <p>• React, Redux, JavaScript, Python, Java, HTML, CSS, XML</p>
           <p>
@@ -58,6 +61,10 @@ function App() {
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
+              <a href="https://www.moviegame.fun/">Movie Game</a>
+            </button>
+
+            <button class="fancy" variant="secondary" size="lg" block>
               <a
                 id="bproject"
                 href="https://vibrant-spence-207a4e.netlify.app/"
@@ -73,12 +80,6 @@ function App() {
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
-              <a href="https://confident-varahamihira-ee1a90.netlify.app/">
-                Movie Game
-              </a>
-            </button>
-
-            <button class="fancy" variant="secondary" size="lg" block>
               <a
                 id="bproject"
                 href="https://jolly-meninsky-2047bc.netlify.app/"
@@ -88,10 +89,17 @@ function App() {
             </button>
 
             <button class="fancy" variant="secondary" size="lg" block>
+              <a href="https://admiring-spence-0175e7.netlify.app/">
+                Snake Game
+              </a>
+            </button>
+
+            <button class="fancy" variant="secondary" size="lg" block>
               <a id="bproject" href="https://tender-benz-d42ce4.netlify.app/">
                 Queen Puzzle
               </a>
             </button>
+
             <button class="fancy" variant="secondary" size="lg" block>
               <a href="https://wordsearch-generator.herokuapp.com/">
                 Word Search Generator

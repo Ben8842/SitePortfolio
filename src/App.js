@@ -35,7 +35,7 @@ function App() {
           <p>Status: Open for employment.</p>
           <p>
             Education:{" "}
-            <a href="https://deepdiveeducation.com/">
+            <a id="edu" href="https://deepdiveeducation.com/">
               Deep Dive Learning Academy
             </a>
           </p>
